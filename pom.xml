@@ -80,7 +80,7 @@
 
     </dependencies>
     <build>
-        <finalName>globex-web-qs1</finalName>
+        <finalName>quickstart1</finalName>
         <plugins>
             <!-- http://www.eclipse.org/jetty/documentation/current/jetty-maven-plugin.html -->
             <plugin>
