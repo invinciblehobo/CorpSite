@@ -50,7 +50,7 @@
                                             <a href="#">Cypress Hill</a>
                                         </li>
                                         <li>
-                                            <a href="#">Secret</a>
+                                            <a href="#">Secret Mountain</a>
                                         </li>
                                
                                     </ul>
