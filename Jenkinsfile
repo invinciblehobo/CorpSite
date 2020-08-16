@@ -1,12 +1,12 @@
 node {
    def mvnHome
    def artifactname = "globex-web.war"
-   def repoName = "globexrepo2"
+   def repoName = "globexrepo1"
    def pkgName = "globex-package"
    stage('Setup') { // for display purposes
       snDevOpsStep(enabled:true)
       // Get some code from a GitHub repository
-      git branch: 'master', credentialsId: 'snow-devops', url: 'https://github.com/snow-devops/CorpSite2'
+      git branch: 'master', credentialsId: 'snow-devops', url: 'https://github.com/snow-devops/CorpSite1'
       // Get the Maven tool.
       // ** NOTE: This 'M3' Maven tool must be configured
       // **       in the global configuration.          
